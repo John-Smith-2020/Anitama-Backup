@@ -1,0 +1,58 @@
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 16px
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+.btn-group {padding-left: 3%; padding-right:3%;}
+
+div.bar {font-size:200%;}
+div.sa {font-size:200%;}
+
+.btn-search button {
+  background-color: #ff801f; /* Orange background */
+  border: 1px solid orange; /* Orange border */
+  color: Black; /* Black text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 16px
+}
+
+.btn-search button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-search:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-search button:hover {
+  background-color: #3e8e41;
+}
+
+.btn-search {padding-left: 3%; padding-right:3%;}
